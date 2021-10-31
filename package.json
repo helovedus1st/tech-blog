@@ -1,0 +1,46 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "CMS-style tech blog site with ability for any user to create a secure account, create and edit blog posts, as well as comment on other posts.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helovedus1st/tech-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "CMS",
+    "MVC",
+    "ORM",
+    "Handlebars.js",
+    "Express.js",
+    "express-session",
+    "Sequelize",
+    "comments",
+    "MySQL",
+    "MySQL2",
+    "dotenv",
+    "bcrypt",
+    "connect-session-sequelize"
+  ],
+  "author": "jc-renner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helovedus1st/tech-blog/issues"
+  },
+  "homepage": "https://github.com/helovedus1st/tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0"
+  }
+}
